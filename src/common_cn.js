@@ -5,24 +5,25 @@
 class Common {
 
 }
+const vimiadd = 1.2;
 Common.ELECTRON = 'Electron';
 Common.ELECTRONIC_WECHAT = 'Electronic WeChat';
 Common.DEBUG_MODE = false;
 Common.WINDOW_SIZE = {
-  width: 800,
-  height: 600,
+  width: 800 * vimiadd,
+  height: 600 * vimiadd,
 };
 Common.WINDOW_SIZE_LOGIN = {
-  width: 380,
-  height: 540,
+  width: 380 * vimiadd,
+  height: 540 * vimiadd,
 };
 Common.WINDOW_SIZE_LOADING = {
-  width: 380,
-  height: 120,
+  width: 380 * vimiadd,
+  height: 120 * vimiadd,
 };
 Common.WINDOW_SIZE_SETTINGS = {
-  width: 800,
-  height: 600,
+  width: 800 * vimiadd,
+  height: 600 * vimiadd,
 };
 
 Common.USER_AGENT = {

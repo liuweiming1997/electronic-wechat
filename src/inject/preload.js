@@ -20,8 +20,9 @@ class Injector {
     this.initAngularInjection();
     this.lastUser = null;
     this.initIPC();
-    webFrame.setZoomLevelLimits(1, 1);
-
+    webFrame.setZoomLevelLimits(1, 2);
+    const vimiadd = 1.2;
+    webFrame.setZoomFactor(vimiadd);
     new MenuHandler().create();
   }
 
