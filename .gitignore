@@ -3,6 +3,8 @@
 npm-debug.log*
 .idea
 
+node_modules
+
 # Dependency directories
 
 *.sublime-project
